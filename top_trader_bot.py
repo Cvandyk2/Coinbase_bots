@@ -37,11 +37,11 @@ MAX_WORKERS = 2                                      # ⚙️ Max threads used w
 ENABLE_TRADING = 1                                   # ✅ Set to 1 to enable live trading, 0 for dry-run
 
 # === API KEY ===
-API_KEY_PATH = "/Users/chancevandyke/.investments/coinbase/API_Key/cdp_api_key.json" 
+API_KEY_PATH = "cdp_api_key.json" 
 
 # === Cache filenames ===
-CACHE_FILENAME = "/Users/chancevandyke/.investments/coinbase/Valid_Pairs/usd_cache.json"
-VALID_PAIRS_LIST_PATH = "/Users/chancevandyke/.investments/coinbase/Valid_Pairs/Readable_list.txt"
+CACHE_FILENAME = "usd_cache.json"
+VALID_PAIRS_LIST_PATH = "Readable_list.txt"
 cache_lock = threading.Lock()
 
 # === Setup logging ===
