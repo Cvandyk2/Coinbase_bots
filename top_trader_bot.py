@@ -19,6 +19,12 @@ import sys
 import threading
 import tempfile
 
+# === Referal Link ===
+"https://advanced.coinbase.com/join/TPKTGY7"
+
+# === Tip Jar ===
+"https://www.paypal.com/paypalme/chancevandyke"
+
 # === Configurable Settings ===
 MAX_BUY_USD = 100                                    # 💰 Maximum USD to spend per buy order (pre-fee)
 FEE_BUFFER_PERCENT = 0.004                           # 🧾 Buffer to account for trading fees (0.5%)
