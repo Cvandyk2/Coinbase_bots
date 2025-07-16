@@ -13,6 +13,9 @@ from coinbase.rest import RESTClient
 # === Referal Link ===
 "https://advanced.coinbase.com/join/TPKTGY7"
 
+# === Tip Jar ===
+"https://www.paypal.com/paypalme/chancevandyke"
+
 # === Adjustable Settings ===
 CRYPTO_SYMBOL = "ETH"                         # Crypto you want to trade, e.g., "BTC", "ETH", "LTC"
 MAX_BUY_USD = 100                             # Max amount in 1 trade
